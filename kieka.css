@@ -8,3 +8,255 @@
     font-family:'Crimson Text',"Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* yoheiの部分 */
+a{
+    text-decoration: none;
+    color: #2d2d2d;
+    display: block;
+
+}
+
+.vm_button{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    width: 38%;
+    padding: 15px 0;
+    margin: 0 auto;
+    font-family: 'Crimson Text',"Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    border: 1px solid #000000;
+
+}
+
+.brand_header{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 16px;
+    white-space: nowrap;
+    font-family: 'Josefin Slab', "Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+
+
+}
+
+.brand_lists{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.brand_list_1{
+    display: block;
+    border: 1px solid #2d2d2d;
+    font-size: 12px;
+    font-family: 'Josefin Slab', "Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    padding: 10px 70px;
+
+}
+.brand_list_2{
+    display: block;
+    border: 1px solid #2d2d2d;
+    font-size: 12px;
+    font-family: 'Josefin Slab', "Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    padding: 10px 40px;
+
+}
+.brand_list_3{
+    display: block;
+    border: 1px solid #2d2d2d;
+    font-size: 12px;
+    font-family: 'Josefin Slab', "Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    padding: 10px 75px;
+
+}
+.brand_list_4{
+    display: block;
+    border: 1px solid #2d2d2d;
+    font-size: 12px;
+    font-family: 'Josefin Slab', "Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    padding: 10px 75px;
+
+}
+
+.company_info{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 80px;
+
+}
+.company_info_1{
+    display: block;
+    border: 1px solid #2d2d2d;
+    font-size: 16px;
+    font-family: 'Josefin Slab', "Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    padding:10px 80px ;
+    margin: auto;
+
+}
+.company_info_2{
+    display: block;
+    border: 1px solid #2d2d2d;
+    font-size: 16px;
+    font-family: 'Josefin Slab', "Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    padding:10px 140px ;
+    margin: auto;
+
+}
+
+.news_whole{
+    padding: 0 104px;
+
+
+}
+
+.news{
+    display: block;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    font-family: 'Crimson Text',"Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;;
+}
+
+.short_info{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #667581;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+
+.section_whole{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.section1{
+    width: 31%;
+    min-height: 370px;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+    color:#2d2d2d;
+    font-size: 14px;
+    margin: 0 20px 0 0;
+
+}
+
+.am_button{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    width: 38%;
+    padding: 15px 0;
+    margin: 0 auto;
+    font-family: 'Crimson Text',"Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    border: 1px solid #000000;
+}
+
+.top{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Crimson Text',"Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+
+}
+
+.footer_whole{
+    padding: 5%;
+    margin:50px 0;
+    position: relative;
+}
+
+.footer_left{
+    float: left;
+    display: flex;
+
+}
+
+.footer_right{
+    float: right;
+}
+
+.footer_logo{
+    height: auto;
+    max-height: 40px;
+    line-height: 100px;
+}
+
+.footer_svg{
+    fill: #667581;
+    padding-bottom: 14px;
+}
+
+.footer_right_text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_text{
+    font-size: 10px;
+    color: #2d2d2d;
+    padding: 10px 30px;
+}
+
+.inner_content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sns_img{
+    padding:0 10px;
+}
+
+.small{
+    font-size: 10px;
+    color: #667581;
+    padding-left: 10px;
+}
+
+/* @media(max-width: 480px){ 
+    .section_whole{
+        display: block;
+    }
+
+    .footer_left{
+        display: block;
+        text-align: center;
+    }
+
+    .footer_right_text{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .footer_text{
+        padding: auto;
+    }
+    .footer_right{
+        float: none;
+        text-align: center;
+    }
+
+    .inner_content{
+        display:block;
+        flex */
