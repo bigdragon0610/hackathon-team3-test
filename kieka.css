@@ -51,9 +51,8 @@
 /* koheiの部分 */
 .products {
     display: block;
-    margin-bottom: 60px;
-    padding-left: 142.5px;
-    padding-right: 142.5px;
+    margin-bottom: 30px;
+    padding: 0 10%;
     line-height: 1em;
     text-align: left;
 }
@@ -61,15 +60,16 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 33.333333%;
     justify-content: space-between;
     padding: 0 10%;
+    min-width: 0;
 }
 
 .productEN {
     font-size: 28px;
     font-weight: 400;
     font-family: 'Crimson Text',"Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    margin-bottom: 10px;
     letter-spacing: 0.1em;
     color: black;
 }
@@ -83,7 +83,10 @@
 }
 
 .item {
-    margin-bottom: 57.594px;
+    margin-bottom: 5%;
+    /*ピクセル指定はだめ*/
+    width: calc((100vw - 25vw) / 3);
+    min-width: 0;
 }
 
 .item a {
@@ -93,16 +96,16 @@
 .itemImg {
     position: relative;
     overflow: hidden;
-    height: 353px;
-    width: 353px;
     margin-bottom: 15px; 
 }
 
+.itemImg a {
+    min-width: 0;
+}
+
 .itemImg img {
-    display: block;
     max-width: 100%;
-    max-height: 100%;
-    width: 353px;
+    height: auto;
 }
 
 .itemImg:hover img {
@@ -142,8 +145,62 @@
     color: #e74c3c;
 }
 
+/* レスポンシブ対応（Desktop）(各列の商品数が３から２に） */
+
+@media screen and (max-width: 1024px) {
+    .products {
+        padding: 0 5%;
+    }
+    .item {
+        margin-bottom: 5%;
+        /*ピクセル指定はだめ*/
+        width: calc((100vw - 17vw) / 2);
+        min-width: 0;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 5%;
+        min-width: 0;
+    }
+    .itemTitle h2 {
+        font-size: 12px;
+    }
+    .itemPrice {
+        font-size: 11px;
+    }
+}
 
 
+
+/* レスポンシブ対応（iPhone X） */
+
+@media screen and (max-width: 375px) {
+    .products {
+        padding: 0 3%;
+    }
+    .item {
+        margin-bottom: 5%;
+        /*ピクセル指定はだめ*/
+        width: calc((100vw - 14vw) / 2);
+        min-width: 0;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 3%;
+        min-width: 0;
+    }
+    .itemTitle h2 {
+        font-size: 13px;
+    }
+    .itemPrice {
+        font-size: 12px;
+    }
+    
+}
 
 
 
