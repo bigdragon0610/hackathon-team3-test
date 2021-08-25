@@ -1,4 +1,4 @@
-.abouttitle{
+.about1{
     color: #2d2d2d;
     margin-bottom: 10px;
     display: block;
@@ -7,7 +7,45 @@
     letter-spacing: 0.1em;
     font-family:'Crimson Text',"Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
+.about2{
+    color: #667581;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+.about3{
+    color: #2d2d2d;
+    font-size: 14px;
+    line-height: 1.8em;
+    margin:0px 0px 30px;
+    letter-spacing: 0.1em;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+.aboutview{
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    transition: all .5s ease;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.12em;
+    display: block;
+    text-align: center;
+    font-family: 'Crimson Text',"Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
 
+.aboutview:hover{
+    color:white;
+    background-color:#000000;
+}
 
 
 /* koheiの部分 */
